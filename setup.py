@@ -1,5 +1,4 @@
-from data_type import DataGenerator
+from data_type import data_generator
 
 if __name__ == "__main__":
-    generator = DataGenerator(100_000)
-    generator.process()
+    data_generator(100_000)
